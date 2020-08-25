@@ -1,0 +1,54 @@
+.container {
+    width: 70%;
+
+    margin: auto;
+
+}
+.box_login {
+    width: 400px;
+    background-color: white;
+    border-radius: 25px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+
+
+.gambar {
+    width: 130px;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+.header h1 {
+    color: black
+    ;
+    font-family: 'Times New Roman';
+}
+.nav {
+    width: 100%;
+    background-color: white;
+    height:50px;
+    display: inline-block;
+}
+/* .nav li {
+    display: inline-block;
+    text-align: center;
+    color: midnightblue;
+}
+.nav li a {
+    text-decoration: none;
+    }
+
+.nav ul {
+    text-align: left; */
+
+
+.body {
+    background-color: black;
+    
+    
+
+}
+

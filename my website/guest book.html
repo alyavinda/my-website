@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js"></script>
+</head>
+
+<body class="body" style="background-image: url(IMG/starry.jpg);
+background-size: cover;">
+    <div class="container">
+        <div class="header">
+            <img src="IMG/hatsuko.jpg" class="gambar">
+            <h1>My Website</h1>
+
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="guest book.html">Guess Book</a></li>
+                </ul>
+            </div>
+            <div class="main">
+
+                <h3>Guest Book</h3>
+                <p>leave your mark here so i know that you have visited my Website</p>
+
+                <form action="#">
+
+
+                    <table cellpadding="10" align="center" bgcolor="#D8BFD8">
+                        <tr>
+                            <td>
+                                Name
+                            </td>
+                            <td>:</td>
+                            <td><input type="text" name="Nama" id="Nama"></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Email
+                            </td>
+                            <td>:</td>
+                            <td><input type="text" name="email" id="Email"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Komentar
+                            </td>
+                            <td>:</td>
+                            <td><textarea cols="30" rows="10" id="komentar"></textarea></td>
+                        </tr>
+
+
+
+
+                        <tr>
+                            <td colspan="3" align="right"><input type="submit" value="SIMPAN" id="simpan"
+                                    onclick="return bukutamu();"></td>
+                        </tr>
+
+                    </table>
+                </form>
+
+                <div id="list">
+                </div>
+            </div>
+            <div class="footer">
+                <p align="center">
+
+                    Copyright &copy; Alyavinda Aufarra</p>
+
+                <a href="panel.html" target="_blank">ADMINISTRATOR</a>
+            </div>
+        </div>
+        </p>
+    </div>
+</body>
+
+</html>
